@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy:gh": "ng build --prod --base-href='https://gushanhasitha.github.io/auth-demo/' && ngh"
+    "deploy:gh": "ng build --env=prod --base-href='https://gushanhasitha.github.io/auth-demo/' && ngh"
   },
   "private": true,
   "dependencies": {
